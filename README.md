@@ -11,7 +11,7 @@ DI Spi is the newest solution to 'peeping' into the dependency chain in your typ
 - The user should be able to stay on the same file and not have to navigate to the 'parent' file or the file that is being passed in as an argument to the current file's constructor
 - The user and see what is ```public``` and what is ```private```
 
-optional:
+#### OPTIONAL:
 
 - The user can copy the 'signature' or variable from within the hover window
 - The user can see the public exposed methods from the class they are hovering over (so they could use them within the class they are in)
