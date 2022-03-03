@@ -14,6 +14,8 @@ DI Spi is the newest solution to 'peeping' into the dependency chain in your typ
 optional:
 
 - The user can copy the 'signature' or variable from within the hover window
+- The user can see the public exposed methods from the class they are hovering over (so they could use them within the class they are in)
+- The user can see if the class is marked 'abstract' so they can extend it if they'd like to
 
 This is the README for your extension "di-spi". After writing up a brief description, we recommend including the following sections.
 
