@@ -27,7 +27,8 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(disposable);
 	hoverWidget;
 
-	new DISpy(context);
+	const diSpy = new DISpy(context);
+	console.log(diSpy);
 }
 // this method is called when your extension is deactivated
 export function deactivate() {
