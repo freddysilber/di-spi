@@ -1,7 +1,7 @@
 {
-	"name": "di-spy",
-	"displayName": "di-spy",
-	"description": "Spy into dependency injections better",
+	"name": "di-spi",
+	"displayName": "di-spi",
+	"description": "'Spi' into dependency injections better",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.64.0"
@@ -10,14 +10,14 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:di-spy.helloWorld",
+		"onCommand:di-spi.helloWorld",
 		"onLanguage:typescript"
 	],
 	"main": "./dist/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "di-spy.helloWorld",
+				"command": "di-spi.helloWorld",
 				"title": "Hello World"
 			}
 		]
