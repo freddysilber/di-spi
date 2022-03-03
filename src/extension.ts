@@ -7,7 +7,7 @@
 // Import the module and reference it with the alias vscode in your code below
 import * as vscode from 'vscode';
 // CUSTOM
-import { DISpi, hoverWidget } from './hover';
+import { DISpI } from './hover';
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
@@ -25,9 +25,8 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showInformationMessage('Hello World from di-spi!');
 	});
 	context.subscriptions.push(disposable);
-	hoverWidget;
 
-	const diSpi = new DISpi(context);
+	const diSpi = new DISpI(context);
 	console.log(diSpi);
 }
 // this method is called when your extension is deactivated
