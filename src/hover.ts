@@ -7,7 +7,7 @@
  */
 import * as vscode from 'vscode';
 
-export class DISpy {
+export class DISpi {
 	constructor(context: vscode.ExtensionContext) {
 		console.log('CONTEXT', context);
 		const input = vscode.window.showInputBox().then((input) => {

@@ -8,7 +8,7 @@
 import * as vscode from 'vscode';
 // CUSTOM
 import Tsbs from './tsbs';
-import { DISpy, hoverWidget } from './hover';
+import { DISpi, hoverWidget } from './hover';
 // this method is called when your extension is activated
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
@@ -27,8 +27,8 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(disposable);
 	hoverWidget;
 
-	const diSpy = new DISpy(context);
-	console.log(diSpy);
+	const diSpi = new DISpi(context);
+	console.log(diSpi);
 }
 // this method is called when your extension is deactivated
 export function deactivate() {

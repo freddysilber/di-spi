@@ -1,6 +1,21 @@
-# di-spy README
+# di-spi README
 
-This is the README for your extension "di-spy". After writing up a brief description, we recommend including the following sections.
+# DI Spi
+DI Spi is the newest solution to 'peeping' into the dependency chain in your typescript code.
+
+## Contraints / Scope
+- The user has a class with constructor params
+- The user should be able to hover over the args in the constructor (the variable names)
+- The user should see a popover / hover window with information about the class / argument they are hovering
+- The user can collect context of whats being 'injected' to the class that they are currently viewing
+- The user should be able to stay on the same file and not have to navigate to the 'parent' file or the file that is being passed in as an argument to the current file's constructor
+- The user and see what is ```public``` and what is ```private```
+
+optional:
+
+- The user can copy the 'signature' or variable from within the hover window
+
+This is the README for your extension "di-spi". After writing up a brief description, we recommend including the following sections.
 
 ## Description
 VSCode extension for typescript to show the user what dependencies / props and params are availablet to them from class constructor.
