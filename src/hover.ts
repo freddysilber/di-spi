@@ -8,7 +8,6 @@
 import * as vscode from 'vscode';
 
 export class DISpI {
-
 	constructor(context: vscode.ExtensionContext) {
 		console.log('CONTEXT', context);
 
